@@ -8,3 +8,10 @@ function isPrime(num) {
   return true
 }
 console.log(isPrime(num));
+
+
+if (num % 2 == 0) {
+  console.log("even")
+} else {
+  console.log("odd")
+}
